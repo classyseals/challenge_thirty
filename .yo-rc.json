@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "challengeThirty",
+    "style": "sass",
+    "postcss": false
+  }
+}
