@@ -9,6 +9,7 @@ let yeomanImage = require('../images/yeoman.png');
 
 class AppComponent extends React.Component {
   render() {
+    console.log(this.props.children);
     return (
       <div className="index">
       	<Navbar />
