@@ -68,10 +68,6 @@ description {
 	overflow: hidden;
 }
 
-difficulty-bar {
-
-}
-
 @media (max-width: 900px) {
   challenge {
 		-webkit-box-flex: 1;

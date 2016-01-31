@@ -11,7 +11,6 @@ const ChallengeItem = (props) => {
 				<description>
 					{props.challenge.description}
 				</description>
-				<difficulty-bar></difficulty-bar>
 			</challenge-details>
 		</challenge>
 	);
