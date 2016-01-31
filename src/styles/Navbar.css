@@ -1,0 +1,32 @@
+.navbar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background-color: #FFFFFF;
+}
+
+.navbar > .logo {
+	padding: 5px;
+	color: #000000;
+	-webkit-transition: 0.2s ease-in-out;
+	        transition: 0.2s ease-in-out;
+}
+
+.navbar > .logo:hover {
+	padding: 5px;
+	color: #000000;
+	-webkit-transform: translate(0, -5px);
+	    -ms-transform: translate(0, -5px);
+	        transform: translate(0, -5px);
+}
+
+.navbar > .login {
+	padding: 5px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
