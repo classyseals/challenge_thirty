@@ -12,10 +12,53 @@ class ChallengesPanel extends React.Component {
 					</challenge-image>
 					<challenge-details>
 						<name>
-							G-RO: Revolutionary Carry on Luggage
+							30 days of LeanGains
 						</name>
 						<description>
-							The worlds best carry-on luggage - its patented "all-terrain" wheels change EVERYTHING!
+							Combines daily 16 hour fast/8 hour feed windows, macro cycling and
+							weight lifting so you can be in your best shape ever.
+						</description>
+						<difficulty-bar></difficulty-bar>
+					</challenge-details>
+				</challenge>
+				<challenge>
+					<challenge-image>
+					</challenge-image>
+					<challenge-details>
+						<name>
+							30 days of LeanGains
+						</name>
+						<description>
+							Combines daily 16 hour fast/8 hour feed windows, macro cycling and
+							weight lifting so you can be in your best shape ever.
+						</description>
+						<difficulty-bar></difficulty-bar>
+					</challenge-details>
+				</challenge>
+				<challenge>
+					<challenge-image>
+					</challenge-image>
+					<challenge-details>
+						<name>
+							30 days of LeanGains
+						</name>
+						<description>
+							Combines daily 16 hour fast/8 hour feed windows, macro cycling and
+							weight lifting so you can be in your best shape ever.
+						</description>
+						<difficulty-bar></difficulty-bar>
+					</challenge-details>
+				</challenge>
+				<challenge>
+					<challenge-image>
+					</challenge-image>
+					<challenge-details>
+						<name>
+							30 days of LeanGains
+						</name>
+						<description>
+							Combines daily 16 hour fast/8 hour feed windows, macro cycling and
+							weight lifting so you can be in your best shape ever.
 						</description>
 						<difficulty-bar></difficulty-bar>
 					</challenge-details>

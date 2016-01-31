@@ -3,6 +3,7 @@ require('styles/App.css');
 
 import React from 'react';
 import ChallengesPanel from './ChallengesPanel';
+import Navbar from './Navbar';
 
 let yeomanImage = require('../images/yeoman.png');
 
@@ -10,7 +11,8 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
+      	<Navbar />
+        <img src="http://i.imgur.com/nz6bluK.jpg" alt="Yeoman Generator" />
         <div className="notice"> Welcome! Choose a challenge bellow:</div>
         <panel-container>
         	<ChallengesPanel />
