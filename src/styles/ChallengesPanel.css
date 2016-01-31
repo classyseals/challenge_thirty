@@ -1,0 +1,104 @@
+
+
+challenges-panel {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+	font-size: 13px;
+}
+
+challenge {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 20%;
+	    -ms-flex: 1 0 20%;
+	        flex: 1 0 20%;
+	min-width: 20%;
+	margin: 3px 3px 0 3px;
+	background-color: #999;
+	border: 1px solid black;
+
+}
+
+challenge challenge-image {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	background: url(https://media4.giphy.com/media/EWxxStVE8r4iI/200.gif);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+challenge challenge-details {
+	overflow: scroll;
+	margin-top: 5px;
+}
+
+name {
+	display: block;
+	line-height: 16px;
+	min-height: 18px;
+	margin: 2px;
+	overflow: hidden;
+}
+
+description {
+	display: block;
+	line-height: 16px;
+	max-height: 75%;
+	min-height: 18px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+difficulty-bar {
+
+}
+
+@media (max-width: 900px) {
+  challenge {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 40%;
+		    -ms-flex: 1 0 40%;
+		        flex: 1 0 40%;
+		min-width: 40%;
+	}
+}
+
+@media (max-width: 900px) {
+  challenge {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 40%;
+		    -ms-flex: 1 0 40%;
+		        flex: 1 0 40%;
+		min-width: 40%;
+	}
+}
+
+@media (max-width: 450px) {
+  challenge {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 100%;
+		    -ms-flex: 1 0 100%;
+		        flex: 1 0 100%;
+		min-width: 100%;
+		min-height: 200px;
+	}
+}
