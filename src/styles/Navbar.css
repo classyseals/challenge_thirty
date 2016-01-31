@@ -1,0 +1,16 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+}
+
+.navbar > .logo {
+	padding: 5px;
+	color: #000000;
+}
+
+.navbar > .login {
+	padding: 5px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
