@@ -32,7 +32,9 @@ panel-container {
   border: 2px solid #000;
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 80%;
   min-width: 400px;
   height: 400px;

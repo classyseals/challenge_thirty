@@ -1,8 +1,13 @@
 
 
 challenges-panel {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
 	padding: 2px;
@@ -10,9 +15,19 @@ challenges-panel {
 }
 
 challenge {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	flex: 1 0 20%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 20%;
+	    -ms-flex: 1 0 20%;
+	        flex: 1 0 20%;
 	min-width: 20%;
 	margin: 3px 3px 0 3px;
 	background-color: #999;
@@ -21,7 +36,10 @@ challenge {
 }
 
 challenge challenge-image {
-	flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 	background: url(https://media4.giphy.com/media/EWxxStVE8r4iI/200.gif);
 	background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +74,10 @@ difficulty-bar {
 
 @media (max-width: 900px) {
   challenge {
-		flex: 1 0 40%;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 40%;
+		    -ms-flex: 1 0 40%;
+		        flex: 1 0 40%;
 		min-width: 40%;
 	}
 }
